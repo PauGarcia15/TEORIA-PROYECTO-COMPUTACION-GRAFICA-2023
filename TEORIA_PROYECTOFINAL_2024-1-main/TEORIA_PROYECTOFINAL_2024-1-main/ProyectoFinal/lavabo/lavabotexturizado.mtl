@@ -1,0 +1,500 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj1:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj3:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj3:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj3:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj3:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj3:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj3:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj4:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj4:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj4:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj4:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj4:obj3:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj4:obj3:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj4:obj3:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj4:obj3:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj4:obj3:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj4:obj3:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj4:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj4:pasted__pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj4:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj4:pasted__pasted__standardSurface2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj3:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj3:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj3:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj3:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj3:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:obj3:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:obj4:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj4:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj4:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj4:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj4:obj3:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj4:obj3:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj4:obj3:obj2:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd espejo.jpg
+Ni 1.00
+Ks 0.33 0.33 0.33
+newmtl obj:obj5:obj4:obj3:obj2:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plata.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl obj:obj5:obj4:obj3:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:obj4:obj3:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:obj4:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:obj4:pasted__pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:obj4:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:obj4:pasted__pasted__standardSurface2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:pasted__pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:pasted__pasted__lambert2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:obj5:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:pasted__pasted__standardSurface2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:obj5:pasted__pasted__standardSurface2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:pasted__pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:pasted__pasted__lambert2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:pasted__pasted__lambert2SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Plastic010_1K-JPG_Displacement.jpg
+Ni 1.00
+newmtl obj:pasted__pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:pasted__pasted__standardSurface2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:pasted__pasted__standardSurface2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:pasted__pasted__standardSurface2SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl obj:pasted__standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lavaboneon.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl standardSurface2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
