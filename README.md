@@ -34,7 +34,6 @@ Estos son los elementos mínimos que se deben entregar, no significa que sean lo
 
 
 ## **Criterios de evaluación**
-Entiendo que has proporcionado un conjunto de criterios de evaluación para un proyecto, probablemente relacionado con modelado, animaciones y documentación. Cada criterio tiene una puntuación máxima y se evaluarán diferentes aspectos del proyecto. Aquí hay un resumen de los criterios:
 
 ### Presentación (10 puntos)
 - **Implícito:** La presentación del proyecto es algo implícito (-5 a 10 puntos).
