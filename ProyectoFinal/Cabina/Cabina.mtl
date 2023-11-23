@@ -1,0 +1,38 @@
+newmtl Cabina:payphone3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd payphone_diffuse.tga
+map_Ka payphone_diffuse.tga
+Ni 1.50
+Ks 0.63 0.63 0.63
+Ns 30.00
+newmtl Cabina:payphone5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd payphone_diffuse.tga
+map_Ka payphone_diffuse.tga
+Ni 1.50
+Ks 0.63 0.63 0.63
+Ns 30.00
+newmtl Cabina:phong1SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Let_Cabina.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Cabina:phong1SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Let_Cabina.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

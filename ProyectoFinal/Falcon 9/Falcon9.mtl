@@ -1,0 +1,63 @@
+newmtl Falcon10:body
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_body_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Falcon10:body_black
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_body_black_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Falcon10:details
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_details_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 200.00
+newmtl Falcon10:engine
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_engine_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Falcon10:fairing
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_fairing_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Falcon10:fins
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_fins_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Falcon10:legs
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd falcon_legs_BaseColor.png
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 0.06

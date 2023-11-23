@@ -1,0 +1,39 @@
+newmtl Base_Cam:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl Base_Cam:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd kamera_difuse_2048.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Camara:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl Camara:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd kamera_difuse_2048.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Camara:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd BUMB.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
