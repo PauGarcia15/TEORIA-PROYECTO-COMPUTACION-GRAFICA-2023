@@ -1,43 +1,52 @@
 ﻿  MainPrueba.cpp
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(207,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(391,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(309,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(726,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(392,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(727,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(393,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(728,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(396,105): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(396,99): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(396,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(404,111): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(404,100): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(404,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(414,11): warning C4244: 'inicializando': conversión de 'genFIType' a 'float'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(731,105): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(731,99): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(731,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(739,111): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(739,100): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(739,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(750,11): warning C4244: 'inicializando': conversión de 'genFIType' a 'float'; posible pérdida de datos
           with
           [
               genFIType=double
           ]
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(420,108): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(420,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(429,109): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(429,98): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(429,88): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(437,109): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(437,98): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(437,88): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(569,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(570,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(574,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(575,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(577,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\ProyectoFinal\MainPrueba.cpp(578,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-  ProyectoFinal.vcxproj -> D:\Freelance\CompuGrafica\Repositorio\316173670_PROYECTOFINAL2024-1_GRUPO7\Debug\ProyectoFinal.exe
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(756,108): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(756,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(765,109): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(765,98): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(765,88): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(773,109): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(773,98): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(773,88): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(781,111): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(781,100): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(781,89): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(895,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(976,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(977,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(981,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(982,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(984,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\ProyectoFinal\MainPrueba.cpp(985,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(etc1_utils.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_DXT.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_helper.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(SOIL2.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+  ProyectoFinal.vcxproj -> C:\Users\luis-\OneDrive\Documentos\GitHub\TEORIA-PROYECTO-COMPUTACION-GRAFICA-2023\Debug\ProyectoFinal.exe

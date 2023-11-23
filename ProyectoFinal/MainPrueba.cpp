@@ -44,6 +44,21 @@ bool firstMouse = false;
 glm::vec3 lightPos(0.0f, 0.0f, 0.0f);
 bool active;
 
+//ANIM CAMARAS
+bool CamAnim = true;
+float rotCam = 0.0f;
+bool der = true;
+bool izq = false;
+
+//ANIM COHETE
+glm::vec3 tmp(0.0f, 0.0f, 0.0f);
+float	movAuto_x = -45.0f,
+movAuto_z = -45.0f,
+movAuto_ex = 0.0f,
+movAuto_y = 5.0f,
+orienta = 0.0f;
+int circuitoAuto = 1;
+
 // Positions of the point lights
 glm::vec3 pointLightPositions[] = {
 	glm::vec3(-6.867020,-1.8,-6.243372),
@@ -183,6 +198,20 @@ int main()
 	Model telescopio((char*)"Telescope/telescopioTexturizado.obj");
 	Model baños((char*)"baño/bañosfila.obj");
 	Model lavabo((char*)"lavabo/lavabotexturizado.obj");
+	Model SaturnV((char*)"Saturn V/SaturnV.obj");
+	Model Falcon9((char*)"Falcon 9/Falcon9.obj");
+	Model Banca((char*)"Banca/Banca.obj");
+	Model Cabina((char*)"Cabina/Cabina.obj");
+	Model Posters((char*)"Posters/Posters.obj");
+	Model Camara((char*)"Camara/Camara.obj");
+	Model Base_Cam((char*)"Camara/Base_Cam.obj");
+	Model Rocket((char*)"Rocket/Rocket.obj");
+	Model Hubble((char*)"Hubble/Hubble.obj");
+	Model Carrito((char*)"Hubble/Hubble.obj");
+	//cohete anim
+	Model cap((char*)"sat/BAS.obj");
+	Model bas((char*)"sat/BAS1.obj");
+	Model srb((char*)"sat/BAS2.obj");
 
 	GLfloat skyboxVertices[] = {
 		// Positions
@@ -562,7 +591,144 @@ int main()
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
 		lavabo.Draw(lightingShader);
 
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(-7.0f, -1.6f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Falcon9.Draw(lightingShader);
 
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, -1.6f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		SaturnV.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, -2.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Rocket.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(5.0f, -2.0f, 4.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Hubble.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(-1.5f, -2.2f, 1.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Banca.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(-1.5f, -2.2f, -5.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Banca.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(-1.5f, -2.2f, -5.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Carrito.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(9.5f, -2.1f, -8.5f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Cabina.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(-2.0f, 0.0f, 1.8f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Posters.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(15.0f, 0.0f, 1.8f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.0f);
+		Posters.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, 8.5f, 0.8f));
+		model = glm::rotate(model, glm::radians(rotCam), glm::vec3(0.0f, 1.0f, 0.0f)); //rotacion de la cola
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Camara.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, 8.5f, 1.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Base_Cam.Draw(lightingShader);
+		
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, 8.5f, -15.0f));
+		model = glm::rotate(model, glm::radians(rotCam), glm::vec3(0.0f, 1.0f, 0.0f)); //rotacion de la cola
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Camara.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(0.0f, 8.5f, -15.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Base_Cam.Draw(lightingShader);
+
+		glm::mat4 tmp = glm::mat4(1.0f);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		tmp = model = glm::translate(model, glm::vec3(-45.0f, movAuto_y, movAuto_x));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		model = glm::rotate(model, glm::radians(-orienta), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.4f);
+		cap.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(tmp, glm::vec3(0.0f, movAuto_ex, movAuto_ex));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		model = glm::rotate(model, glm::radians(orienta), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.4f);
+		bas.Draw(lightingShader);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(tmp, glm::vec3(0.0f, movAuto_ex, movAuto_ex));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		model = glm::rotate(model, glm::radians(orienta), glm::vec3(1.0f, 0.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.4f);
+		srb.Draw(lightingShader);
 		// Point light 1
 		glm::vec3 lightColor;
 		lightColor.x = abs(sin(glfwGetTime() * Light1.x));
@@ -723,6 +889,52 @@ void DoMovement()
 		pointLightPositions[0].z += 0.01f;
 	}
 
+	//Anim Satelite
+	if (circuitoAuto == 1) {
+		movAuto_y += 0.2f;
+		if (movAuto_y >= 25.0f)
+
+			circuitoAuto = 2;
+	}
+	if (circuitoAuto == 2) {
+		movAuto_ex -= 0.1f;
+		orienta -= 0.3f;
+		movAuto_y += 0.2f;
+		movAuto_x += 0.2;
+		if (movAuto_y >= 40.0f)
+			circuitoAuto = 3;
+	}
+	if (circuitoAuto == 3) {
+		movAuto_y = 5.0f;
+		movAuto_ex = 0.0f;
+		movAuto_x = -45.0f;
+		orienta = 0.0f;
+		if (movAuto_ex == 0.0f)
+			circuitoAuto = 1;
+	}
+
+	//Movimiento Camaras
+	if (CamAnim) {
+		const float limiteRotacion = 45.0f;
+
+		if (der) {
+			rotCam += 0.3f;
+			if (rotCam >= limiteRotacion) {
+				izq = true;
+				der = false;
+
+				rotCam = limiteRotacion;
+			}
+		}
+		else if (izq) {
+			rotCam -= 0.3f;
+			if (rotCam <= -limiteRotacion) {
+				izq = false;
+				der = true;
+				rotCam = -limiteRotacion;
+			}
+		}
+	}
 }
 
 // Is called whenever a key is pressed/released via GLFW
